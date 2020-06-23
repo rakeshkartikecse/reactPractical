@@ -1,2 +1,2 @@
-# reactPractical
+# reactPractices
 Created with CodeSandbox
