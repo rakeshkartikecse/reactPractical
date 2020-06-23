@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import pi, { doublePi, triplePi } from "./math";
 
-import App from "./App";
-
-const rootElement = document.getElementById("root");
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  rootElement
+  <ul>
+    <li>{pi}</li>
+    <li>{doublePi()}</li>
+
+    <li>{triplePi()}</li>
+  </ul>,
+  document.getElementById("root")
 );
